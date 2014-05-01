@@ -1,0 +1,44 @@
+/* landing page css stylesheet */
+
+body {
+  padding-top: 50px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron p {
+  padding-top: 10pt;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.ranking {
+  float: left;
+  margin-right: 20px;
+  font-size: 12pt;
+  width: 50pt;
+}
+
+.name {
+  font-size: 12pt;
+}
+
+.colhead {
+  font-weight: bold;
+}
